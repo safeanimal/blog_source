@@ -30,6 +30,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Generate pages
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUBACTIONS }}
 
         run: ${GITHUB_WORKSPACE}/bin/gh_action_build.sh

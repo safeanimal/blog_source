@@ -157,3 +157,23 @@ if __name__ == "__main__":
     print("爬虫结束！")
 ```
 
+## 实例五
+
+​	**目标**：给定图片URL，爬取并存储该图片。
+
+```python
+import requests
+
+if __name__ == "__main__":
+    img_url = "https://w.wallhaven.cc/full/pk/wallhaven-pkkm6p.png"
+    # content属性为响应对象的二进制型数据
+    img_binary = requests.get(url=img_url).content
+
+    # wb表示写+二进制，表示写入二进制数据
+    with open('output/example.png', 'wb') as file:
+        file.write(img_binary)
+
+    print("爬取图片结束！")
+
+```
+

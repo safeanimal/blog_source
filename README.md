@@ -32,3 +32,7 @@ safeanimal.github.io：存放Hexo生成的静态网页文件，平时不要动�
 
 > + 此步骤中需要生成新的SSH公钥和私钥，需要在cmd中运行`ssh-keygen -t rsa -C "emailname@example.com"`，==之后不要配置密码！！==
 > + 生成私钥和公钥后，用记事本打开，必须复制其==全部内容==！！
+
+## 常用到的主题更改操作
+
+**文章封面图**：所有图片存放在`themes/butterfly/source/img/post_covers`里。可添加一些新的进去，接着按序编号即可。之后在`themes/butterfly/_config.yml`中<kbd>Ctrl + F</kbd>查找`default_cover`项，按原来的格式写进新图片地址即可。

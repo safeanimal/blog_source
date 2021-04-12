@@ -2,13 +2,17 @@
 
 ## 快速开始
 
-`git remote -v`查看远程仓库对不对，这里应该传到github上的blog_source仓库
+`git remote -v`查看远程仓库名对不对，这里应该传到github上的blog_source仓库。
 
 在对源文件做出更改后（新博客、改主题设置等）后
 
 `git add .`
 
 `git commit -m "这里是注释"`
+
+`git status`查看git目前的状态。
+
+`git push origin`(origin是代表了一个仓库名，要在前面看是不是你要上传的地方)
 
 这时github上的github actions程序已经开始自动deploy了！
 

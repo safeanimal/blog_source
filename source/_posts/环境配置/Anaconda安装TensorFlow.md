@@ -10,7 +10,7 @@ tags: 环境配置
 
 ![image-20210402195459807](Anaconda安装TensorFlow/image-20210402195459807.png)
 
-安装时勾上添加==PATH路径== 和==默认Python的解释器==
+安装时勾上添加<mark>PATH路径</mark> 和<mark>默认Python的解释器</mark>
 
 安装完成后在PowerShell中输入``conda list``如果显示所有安装的包则安装成功。
 
@@ -36,7 +36,7 @@ PowerShell中激活环境需：
 
 这里安装TensorFlow的GPU2.0版本。
 
-==在虚拟环境中==：
+<mark>在虚拟环境中</mark>：
 
 ``conda install tensorflow-gpu=2.0``
 
@@ -62,7 +62,7 @@ pciBusID: 0000:01:00.0
 True
 ```
 
-若虚拟环境中有要使用的包会==先使用虚拟环境的包==，否则会使用系统环境的包。
+若虚拟环境中有要使用的包会<mark>先使用虚拟环境的包</mark>，否则会使用系统环境的包。
 
 ## 安装IPython和Jupyter notebook
 

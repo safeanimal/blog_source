@@ -30,8 +30,8 @@ safeanimal.github.io：存放Hexo生成的静态网页文件，平时不要动�
 
 [sma11black/hexo-action: Hexo CI/CD Action for automating deployment. (github.com)](https://github.com/sma11black/hexo-action)
 
-> + 此步骤中需要生成新的SSH公钥和私钥，需要在cmd中运行`ssh-keygen -t rsa -C "emailname@example.com"`，==之后不要配置密码！！==
-> + 生成私钥和公钥后，用记事本打开，必须复制其==全部内容==！！
+> + 此步骤中需要生成新的SSH公钥和私钥，需要在cmd中运行`ssh-keygen -t rsa -C "emailname@example.com"`，<mark>之后不要配置密码！！</mark>
+> + 生成私钥和公钥后，用记事本打开，必须复制其<mark>全部内容</mark>！！
 
 ## 常用到的主题更改操作
 

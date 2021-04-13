@@ -1,11 +1,13 @@
 ---
 title: Python爬虫-requests模块
-date: 2021-04-10 21:09:47
+date: 2021-04-18 21:09:47
 categories:
 - [编程, Python, 爬虫]
 tags: 爬虫
 
 ---
+
+> requests模块参考网站：https://docs.python-requests.org/zh_CN/latest/user/quickstart.html
 
 ## 在Pycharm中安装requests模块
 

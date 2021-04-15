@@ -8,7 +8,7 @@ tags: 环境配置
 
 [Anacoda官网]: https://www.anaconda.com/
 
-![image-20210402195459807](Anaconda安装TensorFlow/image-20210402195459807.png)
+![image-20210402195459807](/Anaconda安装TensorFlow/image-20210402195459807.png)
 
 安装时勾上添加<mark>PATH路径</mark> 和<mark>默认Python的解释器</mark>
 
@@ -16,21 +16,41 @@ tags: 环境配置
 
 ## 创建虚拟环境
 
-虚拟环境：在虚拟环境中安装各种依赖包可以隔离系统环境，防止系统环境被扰乱。
+**虚拟环境：**在虚拟环境中安装各种依赖包可以<mark>隔离系统环境</mark>，防止系统环境被扰乱。<mark>不同的虚拟环境安装不同的一组包</mark>，通过在不同的虚拟环境中运行程序来使用不同的包。
 
-``conda create -n env_name``
+查看已创建环境：`conda info -e`
+
+创建环境：``conda create -n env_name``
+
+删除环境：`conda remove -n env_name --all`
 
 Cmd中激活环境：
 
 ``activate env_name``
 
-PowerShell中激活环境需：
+PowerShell中激活环境需要先执行命令：
 
 ``conda install -n root -c pscondaenvs pscondaenvs``
 
 ``Set-ExecutionPolicy RemoteSigned``
 
+之后每一次激活只需要：
+
 ``activate env_name``
+
+退出环境：
+
+`deactivate`
+
+## 安装与卸载包
+
+在目的虚拟环境中（激活后）：
+
+`conda install package_name`
+
+`conda uninstall package_name`
+
+<mark>不懂的命令一定要查看命令帮助！</mark>
 
 ## 安装TensorFlow
 
@@ -66,6 +86,8 @@ True
 
 ## 安装IPython和Jupyter notebook
 
+在目的虚拟环境中：
+
 ``conda install ipython``
 
 启动：``ipython``
@@ -73,3 +95,5 @@ True
 ``conda install jupyter notebook``
 
 启动：``jupyter notebook``
+
+在Jupyter notebook中随意切换环境：https://blog.csdn.net/it_xiao_bai/article/details/102765922。<mark>设置好后，在系统环境打开jupyter notebook才可以切换环境！</mark>

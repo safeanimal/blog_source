@@ -13,8 +13,6 @@ matplotlib是python的一个<mark>数据可视化库</mark>，matplotlib.pyplot�
 
 该教程基于MOOC的北京理工大学嵩天教授的Python数据分析与展示课程。
 
-<!--more-->
-
 ## 绘图
 
 ### 例1

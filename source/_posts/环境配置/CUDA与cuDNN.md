@@ -28,17 +28,17 @@ Pytorch官网上目前最新配套配置：
 
 {% gallery %}
 
-![1](img2/1.png)
+![1](https://raw.githubusercontent.com/safeanimal/PicGo/main/img/1.png)
 
-![2](img2/2.png)
+![2](https://raw.githubusercontent.com/safeanimal/PicGo/main/img/2.png)
 
-![3](img2/3.png)
+![3](https://raw.githubusercontent.com/safeanimal/PicGo/main/img/3.png)
 
-![4](img2/4.png)
+![4](https://raw.githubusercontent.com/safeanimal/PicGo/main/img/4.png)
 
-![5](img2/5.png)
+![5](https://raw.githubusercontent.com/safeanimal/PicGo/main/img/5.png)
 
-![6](img2/6.png)
+![6](https://raw.githubusercontent.com/safeanimal/PicGo/main/img/6.png)
 
 {% endgallery %}
 

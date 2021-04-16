@@ -14,6 +14,8 @@ menu:
    娱乐||fas fa-list:
      音乐: /music/||fas fa-music
      电影: /movies/||fas fa-video
+     游戏: /games/||fas fa-game
+   书籍: /books/||fas fas-book
    链接: /link/||fas fa-link
    关于: /about/||fas fa-heart
 

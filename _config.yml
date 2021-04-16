@@ -135,20 +135,20 @@ douban:
     quote: '读万卷书，行万里路'
     meta: true
     comments: false
-    top_img: https://w.wallhaven.cc/full/39/wallhaven-39qjjd.jpg
+    top_img: /img/books.png
     aside: true
   movie:
     title: '电影世界'
     quote: '诗意的栖居'
     meta: true
     comments: false
-    top_img: https://w.wallhaven.cc/full/0w/wallhaven-0w2de6.jpg
+    top_img: /img/movies.png
     aside: true
   game:
     title: '游戏人生'
     quote: '自娱自乐罢了'
     meta: true
     comments: false
-    top_img: https://w.wallhaven.cc/full/md/wallhaven-mdkrj1.png
+    top_img: /img/games.png
     aside: true
   timeout: 10000 

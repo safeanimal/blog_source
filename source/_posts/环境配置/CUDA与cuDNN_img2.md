@@ -24,14 +24,32 @@ Pytorch官网上目前最新配套配置：
 
 **cuDNN8.04**: https://developer.nvidia.com/rdp/cudnn-archive
 
+### CUDA和cuDNN配置步骤
 
+{% gallery %}
 
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin
+![1](img2/1.png)
 
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include
+![2](img2/2.png)
 
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib
+![3](img2/3.png)
 
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\libnvvp
+![4](img2/4.png)
+
+![5](img2/5.png)
+
+![6](img2/6.png)
+
+{% endgallery %}
+
+最后一步环境变量：
+
+`C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin`
+
+`C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include`
+
+`C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\lib`
+
+`C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\libnvvp`
 
 > 参考博客：https://blog.csdn.net/shuiyixin/article/details/99935799?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase

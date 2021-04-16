@@ -8,11 +8,7 @@ tags: 环境配置
 
 [Anacoda官网]: https://www.anaconda.com/
 
-<img src="Anaconda安装TensorFlow/1.png">标题</img>
-
-![标题](Anaconda%E5%AE%89%E8%A3%85TensorFlow/1.png)![标题](Anaconda安装TensorFlow/1.png)
-
-
+![Anaconda官网](img1/1.png)
 
 安装时勾上添加<mark>PATH路径</mark> 和<mark>默认Python的解释器</mark>
 

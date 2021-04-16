@@ -114,3 +114,41 @@ markdown:
       name: '@neilsustc/markdown-it-katex'
       options:
         strict: false
+
+# hexo-butterfly-douban插件设置
+# 用于生成电影页面，数据是从豆瓣个人主页爬下来的
+# title: 页面标题
+# quote: 寫在頁面開頭的一段話,支持html語法.
+# timeout: 爬取數據的超時時間，默認是10000ms ,如果在使用時發現報了超時的錯(ETIMEOUT)可以把這個數據設置的大一點。
+# meta: 插入 <meta name="referrer" content="no-referrer"> 到頁面，可解決部分瀏覽器無法顯示豆瓣圖片的問題（會導致一些插件出錯，例如 不蒜子計數器。）
+# comments： 是否顯示評論
+# top_img： 頂部圖
+# aside： 是否顯示側邊欄
+
+# 如果設置中 builtin 設為 true 的，直接運行 hexo g 就會自動生成。
+# 如果設置中 builtin 設為 false 的,需要在 hexo g 後再運行 hexo douban
+douban:
+  user: 190104886 # 豆瓣个人主页ID
+  builtin: true # 是否將生成頁面的功能嵌入hexo s和hexo g中，默認是false,另一可選項為true
+  book:
+    title: '漫卷书屋'
+    quote: '读万卷书，行万里路'
+    meta: true
+    comments: false
+    top_img: https://w.wallhaven.cc/full/39/wallhaven-39qjjd.jpg
+    aside: true
+  movie:
+    title: '电影世界'
+    quote: '诗意的栖居'
+    meta: true
+    comments: false
+    top_img: https://w.wallhaven.cc/full/0w/wallhaven-0w2de6.jpg
+    aside: true
+  game:
+    title: '游戏人生'
+    quote: '自娱自乐罢了'
+    meta: true
+    comments: false
+    top_img: https://w.wallhaven.cc/full/md/wallhaven-mdkrj1.png
+    aside: true
+  timeout: 10000 

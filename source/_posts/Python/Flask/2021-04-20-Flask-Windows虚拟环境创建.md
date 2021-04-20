@@ -15,10 +15,10 @@ tags:
 
 2. **使用虚拟环境**
 
-   `venv\Scripts\activate`
+   `env_name\Scripts\activate`
 
 3. **安装Flask**
 
    `pip install flask`
 
-   `pip freeze`查看安装了哪些包
+   `pip list`查看安装了哪些包

@@ -44,6 +44,8 @@ Pytorch官网上目前最新配套配置：
 
 {% endgallery %}
 
+<mark>上面CUDA安装中若当前版本比要求的低需要装它提供最新的版本！！否则可能不能正常使用！！</mark>
+
 最后一步环境变量：
 
 `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin`

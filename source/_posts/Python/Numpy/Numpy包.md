@@ -1,7 +1,9 @@
 ---
 title: numpy包
 date: 2020-04-26 21:51:29
-tags: Python
+categories:
+- [编程, Python]
+tags: Numpy
 
 ---
 

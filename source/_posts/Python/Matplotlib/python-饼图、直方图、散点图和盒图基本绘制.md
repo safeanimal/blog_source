@@ -1,8 +1,9 @@
 ---
 title: python 饼图、直方图、散点图和盒图基本绘制
 date: 2020-04-26 21:56:03
-tags: Python
-
+categories:
+- [编程, Python]
+tags: Matplotlib
 ---
 
 # python 饼图、直方图、散点图和盒图基本绘制

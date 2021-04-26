@@ -1,7 +1,9 @@
 ---
 title: Anaconda安装TensorFlow
 date: 2021-04-02 22:10:27
-tags: 环境配置
+categories:
+- [编程, 环境搭建]
+tags: Anaconda
 ---
 
 ## 安装Anacoda

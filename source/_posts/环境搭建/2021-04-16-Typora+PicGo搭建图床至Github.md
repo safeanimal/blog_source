@@ -2,8 +2,11 @@
 title: Typora+PicGo搭建图床至Github
 date: 2021-04-16 15:55:12
 categories:
-- [编程, 环境配置]
-tags: 环境配置
+- [编程, 环境搭建]
+tags:
+- Typora
+- PicGo
+- 图床
 ---
 
 ![Typora偏好设置](https://raw.githubusercontent.com/safeanimal/PicGo/main/img/image-20210416155616883.png)

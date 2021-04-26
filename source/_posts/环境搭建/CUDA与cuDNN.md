@@ -2,7 +2,7 @@
 title: CUDA与cuDNN
 date: 2021-04-16 10:38:20
 categories:
-- [编程, 环境配置]
+- [编程, 环境搭建]
 tags: 
 - CUDA
 - cuDNN

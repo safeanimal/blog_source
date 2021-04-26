@@ -1,7 +1,10 @@
 ---
 title: 微信小程序npm构建
 date: 2020-04-26 11:32:01
-tags: 微信小程序
+categories:
+- [编程, 环境搭建]
+tags:
+- npm
 
 ---
 

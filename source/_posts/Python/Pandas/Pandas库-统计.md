@@ -1,7 +1,9 @@
 ---
 title: Pandas库-统计
 date: 2020-04-26 21:56:50
-tags: Python
+categories:
+- [编程, Python]
+tags: Pandas
 
 ---
 

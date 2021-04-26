@@ -1,7 +1,9 @@
 ---
 title: pyplot基础图表函数
 date: 2020-04-26 21:53:47
-tags: Python
+categories:
+- [编程, Python]
+tags: Matplotlib
 
 ---
 

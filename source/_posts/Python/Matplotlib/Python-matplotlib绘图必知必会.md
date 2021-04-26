@@ -1,7 +1,9 @@
 ---
 title: Python matplotlib绘图必知必会
 date: 2020-04-26 21:54:33
-tags: Python
+categories:
+- [编程, Python]
+tags: Matplotlib
 
 ---
 

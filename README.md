@@ -18,6 +18,8 @@
 
 **要是搞砸了什么东西要记得版本回退！**
 
+回退教程：[Git 版本回退及重新提交(踩坑) - 简书 (jianshu.com)](https://www.jianshu.com/p/bc067471781f)
+
 ## Github上仓库配置说明
 
 blog_source：存放整个Hexo博客的源码

@@ -162,9 +162,9 @@ search:
 
 # butterfly
 githubcalendar:
-  enable: true
+  enable: false
   priority: 3
-  enable_page: /about
+  enable_page: /
   user: safeanimal
   layout:
     type: id

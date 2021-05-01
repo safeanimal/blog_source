@@ -2,7 +2,7 @@
 title: Python爬虫-scrapy五大核心组件
 date: 2021-04-30 16:07:22
 categories:
-- [编程, Python]
+- [编程, Python, 爬虫]
 tags:
 - scrapy
 ---

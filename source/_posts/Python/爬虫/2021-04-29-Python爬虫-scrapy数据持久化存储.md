@@ -2,7 +2,7 @@
 title: Python爬虫-scrapy数据持久化存储
 date: 2021-04-29 13:53:22
 categories:
-- [编程, Python]
+- [编程, Python, 爬虫]
 tags:
 - scrapy
 ---

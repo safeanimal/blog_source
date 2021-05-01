@@ -2,7 +2,7 @@
 title: Python爬虫-scrapy使用middlewares设置headers和代理IP
 date: 2021-04-30 16:28:52
 categories:
-- [编程, Python]
+- [编程, Python, 爬虫]
 tags:
 - scrapy
 ---

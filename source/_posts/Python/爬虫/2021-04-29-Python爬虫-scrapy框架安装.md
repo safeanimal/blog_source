@@ -2,7 +2,7 @@
 title: Python爬虫-scrapy框架安装
 date: 2021-04-29 11:27:02
 categories:
-- [编程, Python]
+- [编程, Python, 爬虫]
 tags:
 - scrapy
 ---

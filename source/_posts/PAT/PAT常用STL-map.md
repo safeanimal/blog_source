@@ -41,6 +41,11 @@ int main()
 	*/
 	printf("%d的对应值为%d\n",1,a[1]);
 	
+    /*
+    map当中key的个数
+    */
+    map.size()
+    
 	/*
 	mp.find(value)
 	功能：根据值，访问键

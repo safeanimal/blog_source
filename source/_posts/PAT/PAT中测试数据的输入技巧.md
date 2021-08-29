@@ -206,4 +206,27 @@ int main()
 
 ![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
 
-自己输入测试数据的时候，要在测试数据后面加上回车+ctrl z+回车，才能达到EOF的效果
+自己输入测试数据的时候，要在测试数据后面加上回车+ctrl z+回车，才能达到EOF的效果。
+
+{% note info %}
+
+建议使用以下这种方式
+
+{% endnote %}
+
+```python
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+    while(cin>>a)#读入所有int
+    {
+        #处理
+    }
+    return 0;
+}
+
+```
+

@@ -1,6 +1,8 @@
 ---
 title: Python基础语法
 date: 2020-05-03 16:19:27
+categories:
+- [编程, Python, 语法]
 tags: Python
 ---
 

@@ -658,7 +658,7 @@ subtitle:
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
-  sub: 已是悬崖百丈冰，犹有花枝俏
+  sub: All I want is landing on the moon.
 
 # Loading Animation (加載動畫)
 preloader: false

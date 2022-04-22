@@ -146,19 +146,23 @@ result:{}//测试结果
 
 ```
 _id:''//记录id，系统自带
-creator:''//创建该记录的用户_openid
+owner:''//创建该记录的用户_openid
 name:''//该人物名称
 field:''//该人物领域
 intro:''//该人物简介
+shareNum:0//分享数量（new）
+thumbDetail:['_openid1','_openid2']
+voteDetail:[{_openid:'xxx',vote:'ENTP'},{_openid:'xxx',vote:'INFJ'}]
+stas:{'E':0,'I':0,...}
 ```
 
 #### 权限
 
-所有人可以read，只能管理员可以write。
+所有人可read可write。
 
-也就是所有人都能看到人物信息，但是只有管理员可以添加和修改。
+也就是所有人都能看到人物信息、添加和修改内容。
 
-### 点赞thumb
+### 点赞thumb（删）
 
 ```
 _id:''//记录id，系统自带
@@ -173,7 +177,7 @@ owner:''//被点赞的character或comment的记录id
 
 也就是用户的痕迹可以被其他人看见，但是只能被自己修改。
 
-### 分享share
+### 分享share(删)
 
 ```
 _id:''//记录id，系统自带
@@ -201,7 +205,7 @@ owner:''//被喜爱character的记录id
 
 也就是用户的点赞可以被其他人看见，但是只能被自己修改。
 
-### 评论comment
+### 评论comment（删）
 
 ```
 _id:''//记录id，系统自带
@@ -217,7 +221,7 @@ content:''//如果是comment则携带具体内容
 
 也就是用户的痕迹可以被其他人看见，但是只能被自己修改。
 
-### 投票vote
+### 投票vote（删）
 
 ```
 _id:''//记录id，系统自带

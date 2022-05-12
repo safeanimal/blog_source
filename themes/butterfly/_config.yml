@@ -682,7 +682,7 @@ aside:
       link: https://github.com/safeanimal
   card_announcement:
     enable: true
-    content: Always with darling
+    content: Always with xiaoguai
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
